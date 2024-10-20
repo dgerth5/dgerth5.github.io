@@ -1,5 +1,5 @@
 title: "David Gerth"
-author: "David F Gerth"
+author: "David Gerth"
 description: ""
 permalink: /:title/
 lang: "en"
@@ -17,7 +17,7 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Blog", file: "blog.md"}
-  - {file:  "About Me", file: "about-me.md"}
+  - {title:  "About Me", file: "about-me.md"}
   - {title: "Resume", file: "david-gerth-resume.pdf"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
