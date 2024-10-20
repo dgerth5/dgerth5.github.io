@@ -1,5 +1,5 @@
 ---
-title:  "Dylan Tate Scouting Report - 2023"
+title:  "Dylan Tate Scouting Report - April 21, 2024"
 layout: post
 ---
 
