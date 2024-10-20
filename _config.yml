@@ -17,7 +17,7 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Blog", file: "blog.md"}
-  - {title: "Resume", file: "david-gerth-resume.pdf"}
+  - {title: "Resume", file: "David-Gerth-Resume-2024.pdf"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:davidgerth5@gmail.com"}
