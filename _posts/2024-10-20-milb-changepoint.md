@@ -21,13 +21,13 @@ You can see here that there have been four distinct period to his strikeout rate
 
 Sebastian Walcott is an 18-year-old playing in High-A. Walcott is a freak athlete, it’s difficult to find someone with his level of athleticism, power, and arm in the minors, and is similar in prospect stature to Fernando Tatis Jr/Elly De La Cruz/Oneil Cruz type. As you saw with all three of them, there were plenty of hit tool concerns, and that’s similar with Walcott. He’s spent all of this year in High-A, and being just 18 there’s no rush to promote him, but let’s look at his rolling strikeout rate chart and see where the changepoints are.
 
-![Sebastian Walcott Changepoint](/assets/walcott-changepoint.png)
+![Sebastian Walcott Changepoint](/assets/photos/walcott-changepoint.png)
 
 He started off pretty high but settled into a sub 25% strikeout rate up until June, until we saw a second period form where the strikeout rate we up to the higher 20% range, albeit with a pretty high variance. He was in this stage until the start of August, where he had a brief period in the below 20% strikeout rate before reverting back to his higher strikeout tendencies. This chart does show some flaws in the approach, there’s this false breakout in August that didn’t quite stick, but I do think it shows improvement over the course of the season that he hasn’t quite been able to stick to, but shows the potential of a lower strikeout rate. We’re at the end of the season now and so there’s no point in a promotion to Double-A, but I think he’s shown enough from a strikeout rate standpoint to earn a promotion to Double-A next year.
 
 Sometimes, the algorithm doesn’t detect as many shifts and that’s what we’ve seen so far this year with Carson Williams.
 
-![Carson Williams Changepoint](/assets/williams-changepoint.png)
+![Carson Williams Changepoint](/assets/photos/williams-changepoint.png)
 
 Williams has been all over the strikeout rate spectrum this year, getting down to ~20% at times and then above 35% at other times. While it’s frustrating to see a guy be this streaky, it’s helpful to know there has been no change in the mean of the underlying time series. It’s hard to say whether or not Williams should be promoted; he hasn’t really shown much in the way of improving his strikeout rate over the course of the year, but he still has a 139 wRC+ with an .807 OPS and is barely 21 while doing all of this in Double-A. As our changepoint analysis showed though, he didn’t really make any changes to his strikeout ability this season, which is of some concern.
 
