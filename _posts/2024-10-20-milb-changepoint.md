@@ -15,7 +15,7 @@ Let’s look at a few specific examples. I’m going to use rolling 15-game stri
 
 Elijah Green was the fifth overall pick in 2023, but has struggled mightily in A-ball, posting a .206/.308/.350 slash line with 360 strikeouts in the two years since getting drafted. He is still impressive physically, showing plus raw power and speed, but his bat to ball skills have been so poor it’s prevented a promotion to High-A. Here’s his rolling 15-game strikeout rate chart, with change points shown with the red dashed line.
 
-![Elijah Green Changepoint](/assets/green-changepoint.png)
+![Elijah Green Changepoint](/assets/photos/green-changepoint.png)
 
 You can see here that there have been four distinct period to his strikeout rate this year, with a couple smaller periods in between. He started off in a ~45% strikeout rate period, dropped briefly down to sub 40% near the end of May, start of Jun, before returning to a high 40%/low 50% period, and then in the last month of so he’s been in the low 40% once again. Nothing about this plot shows consistent improvement, or flashing at least middling strikeout rate potential, so I think it would be hard to justify a promotion at this stage.
 
