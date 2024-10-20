@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About Me"
+title: ""
 ---
 
 I am a first year Master's student in Statistics at Indiana University. I received B.A.'s in Economics and Mathematics from Indiana University in 2022. In between I worked at NISA Investment Advisors in St. Louis, MO.     
