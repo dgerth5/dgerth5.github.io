@@ -49,13 +49,13 @@ FB - 50 SL - 45 SPL - 50 CMD - 40
 
 **Group 1:**  
 Devin Taylor  
-**Group 2:**
+**Group 2:**  
 Korbyn Dickerson  
 Jasen Oliver  
-**Group 3:**  
+**Group 3:**    
 Will Eldridge  
 Tyler Cerny  
-**Group 4:** 
+**Group 4:**   
 Gavin Seebold  
 Ryan Gilbert  
 Holton Compton  
