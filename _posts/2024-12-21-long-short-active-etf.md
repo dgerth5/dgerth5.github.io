@@ -16,6 +16,7 @@ Let’s look at the results graphically:
 ![Strategy Backtest](/assets/photos/ls_post.png)
 
 As you can see, from a raw performance standpoint, the strategy performs far worse than the S&P500. It did outperform during the initial Covid shock, but aside from that the strategy is relatively flat. This is what I expected before running the test, but let’s compare Sharpe ratios:  
+
 | Strategy | Sharpe |  
 |----------|--------|  
 | SPY | 0.75 |  
