@@ -1,5 +1,5 @@
 ---
-title:  "A Brief Look at NHL Total Market Efficiency"
+title:  "A Brief Look at NHL Totals Market Efficiency"
 layout: post
 ---
 While the NHL is the smallest of the Big 4 sports, it’s still a liquid market that is hard to beat at post. I’ve spent time working on an in-play hockey totals model, and as a result I’ve been thinking about how sharp the pre-game totals market is in general.
