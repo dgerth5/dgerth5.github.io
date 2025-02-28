@@ -7,4 +7,4 @@ I am a first year Master's student in Statistics at Indiana University. I receiv
 
 This summer, I will be joining the Boston Red Sox as a Summer Analytics Intern.
   
-Previously, I used to write at Down on the Farm [Down on the Farm](https://downonthefarm.substack.com/). I have also given talks at the SABR Analytics Conference (2021) and Saberseminar (2023).  
+Previously, I used to write at [Down on the Farm](https://downonthefarm.substack.com/). I have also given talks at the SABR Analytics Conference (2021) and Saberseminar (2023).  
