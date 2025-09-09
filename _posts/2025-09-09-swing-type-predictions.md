@@ -16,13 +16,13 @@ The first step is creating global swing classifications. Instead of classifying 
 
 For each swing, there are five variables: attack angle, attack direction, swing path tilt, bat speed, and swing length. Attack direction is a function of the side of the plate the hitter is (pulling the ball is a different direction for a lefty than a righty), so I normalize to make all hitters right-handed. From here, I use a Gaussian Mixture Model (GMM) to classify swings based on these five variables.  
 
-Choosing the number of swing types is somewhat of an art. Although GMMs use BIC to discourage overly complex models, the large sample size of 300k observations still leads the algorithm to add more clusters. These extra clusters yield only small improvements in fit, and so I manually set the cutoff to be 10 unique swing types. With 10, I felt that there was enough difference in the main clusters to be meaningful, while also giving check swings and outlier swing types their own group.  
+Choosing the number of swing types is somewhat of an art. Although GMMs use BIC to penalize overly complex models, the large sample size of 300k observations still leads the algorithm to add more clusters. These extra clusters yield only small improvements in fit, and so I manually set the cutoff to be 10 unique swing types. With 10, I felt that there was enough difference in the main clusters to be meaningful, while also giving check swings and outlier swing types their own group.  
 
 The data that I am using is from the 2024 season. I wanted to use a full season of data, and both 2023 and 2025. This captures ~300k swings, and I don’t think swings have changed drastically from 2023 to 2024 or 2024 to 2025 that would make using a single season change classifications that drastically.  
 
 One last thing to note is that certain variables (attack angle, swing length, and swing path tilt) are moderately influenced by location. Since these swing classifications are being fed into a model that has location as a predictor, this was fine, but a “location-neutral” swing classification would be useful to better understand these swings in isolation.  
 
-**Classification Output**  
+**Classification Summary**  
 Let’s see how the swings break down.  
 
 ![](/assets/photos/swing_classifications.png)    
@@ -31,13 +31,13 @@ I’m not creative enough to come up with names for each swing, but we can see h
 
 At a hitter level, most hitters have three main swings. Some have two, some have six, but in general, hitters rotate between three and four swing types.  
 
-**CatBoost Prediction Model Explanation**  
+**Prediction Swing Type By Hitter**  
 
 While classifying swings is interesting enough, the question “What type of swing will a batter use in this scenario?" is a bit more interesting, in my opinion. To answer this, I turned to CatBoost and built a multiclassification model to predict what type of swing a hitter will use given the location of the pitch, what the count is, and who the batter is. There are other relevant variables, like the velocity of the pitch and how many runners on base there are, but I think this representation (where the pitch thrown and what’s the situation) gets at the heart of the question well and shows how batter swing types evolve over the course of an at-bat, while being easy to visualize.
 
 I used CatBoost because there are a lot of categorical features (12 unique counts + 650 batters), which made it a natural fit. In-sample accuracy was ~47%, a significant improvement over a naïve model which would guess 31% of swings correctly (since that was the most common swing type).  
 
-**CatBoost Output**  
+**Predicted Swing Type Comparisons**  
 
 To see how hitters have different approaches, let’s compare Alex Bregman and Cody Bellinger.
 
