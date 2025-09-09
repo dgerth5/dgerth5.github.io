@@ -56,7 +56,7 @@ This is just one comparison that can be made. I put together a Shiny app for eve
 Hopefully this was an interesting exploration into classifying swing types and seeing how hitters change their swings in various situations. It will be interesting to have another full season of data once the current season wraps up to see how hitters have changed their approach at the plate. In the future, this work can be expanded upon to be used for specific batter-pitcher matchups and to think about what pitch shapes work best against various swing types.  
 
 **Additional links**  
-Shiny app (best viewed on desktop): https://david-gerth.shinyapps.io/predicted-swing-type/
+Shiny app (best viewed on desktop): [Predicted Swing Type Shiny App](https://david-gerth.shinyapps.io/predicted-swing-type/)
 
 
 
